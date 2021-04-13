@@ -1,0 +1,20 @@
+$(document).ready(function(){
+    $(".rectangle").find(".text").css({
+        "color":"#000066",
+        "text-align":"center",
+    });
+    $(".rectangle").find(".text2").css({
+        "text-align":"center",   
+    });
+    $(".rectangle2").find(".text3").css({
+        "text-align":"center",   
+    });
+    $(".rectangle2").find(".text4").css({
+        "color":"blue",   
+    });
+    $("#secondary-div").find(".text5").css({
+        "text-align":"center", 
+        "color":"#46515c",  
+    });
+
+})
